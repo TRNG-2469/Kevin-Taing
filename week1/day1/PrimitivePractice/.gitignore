@@ -28,17 +28,3 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-
-# IntelliJ System Files
-.idea/
-*.iml
-out/
-
-# Compiled Bytecodes
-*.class
-bin/
-build/
-
-# System metadata
-.DS_Store
-Thumbs.db
