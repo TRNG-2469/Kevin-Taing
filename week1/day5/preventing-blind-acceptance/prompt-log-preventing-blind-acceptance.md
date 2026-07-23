@@ -1,0 +1,67 @@
+# AI Prompt Log: Preventing Blind Acceptance
+
+## 1. Initial Attempt
+- **Context**: Calculate the average of a double array.
+- **Prompt**: "Write a method to calculate the average score of a student's grades stored in a double array."
+- **Generated Code**:
+```java
+public static double getAverage(double[] grades) {
+    double sum = 0;
+    for (int i = 0; i <= grades.length; i++) {
+        sum += grades[i];
+    }
+    return sum / grades.length;
+}
+```
+## 2. Critique and Evaluation
+- **Self-Explanation**: "The method initializes a sum to 0, loops through the grades array, adds the scores, and divides the sum by the array size."
+- **Constraint Audit**:
+  - **Null Check**: Failed! If grades is null, the method crashes with a NullPointerException.
+  - **Off-by-One**: Failed! The loop condition is i <= grades.length. This will throw an ArrayIndexOutOfBoundsException at runtime when i equals the length of the array.
+  - **Division by Zero**: Failed! If the array is empty (grades.length is 0), the method returns Double.NaN (Not a Number) because of division by zero.
+- **Action**: Reject the raw AI output and write the corrected, secure version.
+
+## 3. Refined Attempt
+- **Generated Code**:
+```java
+public class GradeAnalyzer {
+
+    /**
+     * Safely calculates the average of a double array.
+     * Verified against Null references, Array Boundary overflows, and division by zero.
+     */
+    public static double getAverage(double[] grades) {
+        // 1. Guard check: Null reference check
+        if (grades == null) {
+            System.out.println("Warning: Grades array reference is null. Returning 0.0.");
+            return 0.0;
+        }
+
+        // 2. Guard check: Division-by-zero check (Empty array)
+        if (grades.length == 0) {
+            System.out.println("Warning: Grades array is empty. Returning 0.0.");
+            return 0.0;
+        }
+
+        double sum = 0.0;
+        // 3. Off-by-one boundary correction (changed <= to <)
+        for (int i = 0; i < grades.length; i++) {
+            // Optional: validate scores are positive numbers
+            if (grades[i] >= 0.0) {
+                sum += grades[i];
+            }
+        }
+        
+        return sum / grades.length;
+    }
+
+    public static void main(String[] args) {
+        // Sandboxed testing boundary inputs
+        System.out.println("Average of null:  " + getAverage(null));     // Safe: returns 0.0
+        System.out.println("Average of empty: " + getAverage(new double[0])); // Safe: returns 0.0
+        
+        double[] realGrades = {85.0, 90.0, 95.0};
+        System.out.println("Real average:     " + getAverage(realGrades)); // Safe: returns 90.0
+    }
+}
+```
