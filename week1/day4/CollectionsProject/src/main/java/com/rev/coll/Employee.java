@@ -1,6 +1,6 @@
 package com.rev.coll;
 
-public class Employee implements Comparable{
+public class Employee implements Comparable<Employee>{
     private int id;
     private String name;
     private double salary;
@@ -46,7 +46,10 @@ public class Employee implements Comparable{
                 '}';
     }
 
-    @
+    @Override
+    public int compareTo(Employee o) {
+        return Double.compare(this.salary, o.salary);
+    }
 }
 
 

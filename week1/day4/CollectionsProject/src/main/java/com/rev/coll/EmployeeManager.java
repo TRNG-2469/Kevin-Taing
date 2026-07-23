@@ -2,8 +2,14 @@ package com.rev.coll;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
-public class EmployeeManager {
+public class EmployeeManager implements Comparator<Employee> {
+    @Override
+    public int compare(Employee o1, Employee o2) {
+        return o1.getName().compareTo(o2.getName());
+    }
+
     public static void main(String[] args) {
         Employee e1 = new Employee(1, "Jon", 10000);
         Employee e2 = new Employee(2, "Surya", 11000);
@@ -23,6 +29,6 @@ public class EmployeeManager {
             System.out.println(e);
         }
 
-        Collections.sort(list);
+        Collections.sort(list, new EmployeeManager());
     }
 }
