@@ -18,7 +18,7 @@ public class StringCalculator {
             return 0;
         }
         String[] tokens = input.split(",");
-        int product = Integer.parseInt(tokens[0]);
+        int product = Integer.parseInt(tokens[0].trim());
         for (int x = 1; x < tokens.length; x++) {
             product *= Integer.parseInt(tokens[x].trim());
         }
@@ -26,15 +26,18 @@ public class StringCalculator {
     }
 
     public double div(String input) {
-        if (input == null || input.trim().isEmpty()) {
+        if(input == null) {
+            throw new IllegalArgumentException("Input cannot be null.");
+        }
+        if (input.trim().isEmpty()) {
             return 0;
         }
         String[] tokens = input.split(",");
-        double product = Double.parseDouble(tokens[0]);
+        double product = Double.parseDouble(tokens[0].trim());
         for (int x = 1; x < tokens.length; x++) {
                 double divisor = Double.parseDouble(tokens[x].trim());
                 if (divisor == 0) {
-                    return 0;
+                    throw new IllegalArgumentException("Division by zero is undefined.");
                 }
                 product = product / divisor;
         }
