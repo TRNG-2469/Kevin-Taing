@@ -1,18 +1,13 @@
 package com.rev.jdbc;
 
-import com.rev.jdbc.dao.ProductDAO;
-import com.rev.jdbc.dao.ProductDAOImpl;
-import com.rev.jdbc.model.Product;
-import com.rev.jdbc.service.ProductService;
-import com.rev.jdbc.service.ProductServiceImpl;
+import com.rev.jdbc.model.Employee;
+import com.rev.jdbc.service.EmployeeService;
+import com.rev.jdbc.service.EmployeeServiceImpl;
 
 public class MainClass {
     public static void main(String[] args) {
-//        ProductDAO productDAO = new ProductDAOImpl();
-//        Product product = new Product(5, "WiFI", 250);
-//        productDAO.update(product);
-        Product product = new Product(5, "", -111);
-        ProductService service = new ProductServiceImpl();
-        service.update(product);
+        Employee employee = new Employee(5, "", -111);
+        EmployeeService service = new EmployeeServiceImpl();
+        service.update(employee);
     }
 }

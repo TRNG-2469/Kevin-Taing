@@ -1,8 +1,10 @@
 package com.rev.jdbc.utils;// ConnectionFactory.java
+
+import io.github.cdimascio.dotenv.Dotenv;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import io.github.cdimascio.dotenv.Dotenv;
 
 public class ConnectionFactory {
 
@@ -17,9 +19,6 @@ public class ConnectionFactory {
     // Private constructor prevents instantiation from outside
     private ConnectionFactory() {
         Dotenv dotenv = Dotenv.configure().load();
-//        this.url = System.getenv("DB_URL");
-//        this.username = System.getenv("DB_USER");
-//        this.password = System.getenv("DB_PASS");
         url = dotenv.get("DATABASE_URL");
         username = dotenv.get("DATABASE_USERNAME");
         password = dotenv.get("DATABASE_PASSWORD");
