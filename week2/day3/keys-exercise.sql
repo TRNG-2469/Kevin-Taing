@@ -25,3 +25,4 @@ INSERT INTO members VALUES (5001, 'John Doe', 'john@email.com'), (5002, 'Jane Sm
 --VALUES (9999, 101, '2026-07-12');
 
 --INSERT INTO members VALUES (5003, 'Alex Jones', 'john@email.com');
+
