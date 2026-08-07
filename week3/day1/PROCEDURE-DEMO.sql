@@ -47,4 +47,3 @@ begin
 	update client_accounts set balance = balance - bal where account_id = id;
 	select balance into bal from client_accounts where account_id = id;
 end $$;
-
