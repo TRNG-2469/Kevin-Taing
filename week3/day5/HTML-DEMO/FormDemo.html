@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "eng">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    </head>
+    <body>
+        <form action = "/submit-form" method = "POST">
+            <div>
+                <label for = "username">Username:</label>
+                <input type = "text" id = "username" name = "username" placeholder = "jdoe" required>
+            </div>
+            <div>
+                <label for = "user-email">Email Address: </label>
+                <input type = "email" id = "user-email" name = "user-email" placeholder = "jdoe@email.com" required>
+            </div>
+
+            <div>
+                <label for = "role">User Role:</label>
+                <select id = "role" name = "user-role">
+                    <option value = "Student">Student</option>
+                    <option value = "Teacher">Teacher</option>
+                    <option value = "Administrator">Administrator</option>
+                    <option value = "Other">Other</option>
+                </select>
+            </div>
+
+            <div>
+                <label for = "biography">Biography:</label>
+                <textarea id = "biography" name = "user-bio" rows = "5" cols = "30"></textarea>
+            </div>
+
+            <div>
+                <button type = "submit">Submit</button>
+            </div>
+            
+        </form>
+    </body>
+</html>
