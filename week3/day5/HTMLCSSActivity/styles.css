@@ -1,91 +1,122 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #e7e7e7d8;
-    color: #000000;
+    background-color: #d4e4d4;
+    color: #1f2937;
 }
 
 nav {
+    background-color: #143019;
+    padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #143019;
-    padding: 1rem 2rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 #main-header {
-    background-color: #143019;
-    color: #ffffff;
-    text-align: center;
-    padding: 2rem 1rem;
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    padding: 0;
+}
+
+#main-header h1 {
+    font-size: 1.6rem;
+}
+
+#main-header p {
+    color: #c9d8ca;
+    font-size: 0.9rem;
 }
 
 .nav-link {
     display: flex;
     list-style: none;
     gap: 1.5rem;
-    color: rgb(48, 48, 48);
 }
 
 .nav-link a {
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
 }
 
 .nav-link a:hover {
-    color: rgb(202, 202, 202);
+    color: #a8c5aa;
 }
 
 .container {
     max-width: 700px;
-    margin: 2rem auto;
+    margin: 2.5rem auto;
     padding: 0 1rem;
 }
 
-.card {
-    background: white;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    border-left: 5px solid #143019;
-}
-
-.card h1, .card h2 {
-    margin-bottom: 1rem;
-    color: #0f172a;
-}
-
-
 .about {
-    background: #ffffff;
-    padding: 1.5rem;
-    border-radius: 8px;
+    background-color: white;
+    padding: 2rem;
     margin-bottom: 1.5rem;
-    border-left: 5px solid #143019;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    border-left: 6px solid #143019;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-.about ul {
-    margin-left: 1.5rem;
-    margin-top: 0.5rem;
+.about h1 {
+    color: #143019;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.about p {
+    margin-bottom: 1.5rem;
+    color: #4b5563;
+}
+
+.about strong {
+    color: #143019;
+}
+
+.about img {
+    display: block;
+    width: 50%;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    border-left: 6px solid #143019;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+    margin-bottom: 1rem;
+    color: #143019;
 }
 
 .data-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 1rem;
+    overflow: hidden;
+    border-radius: 8px;
 }
 
-.data-table th, .data-table td {
-    padding: 10px 12px;
-    border: 1px solid #666666;
+.data-table th,
+.data-table td {
+    padding: 12px 14px;
+    border: 1px solid #d1d5db;
     text-align: left;
 }
 
@@ -95,30 +126,53 @@ nav {
 }
 
 .data-table tbody tr:nth-child(even) {
-    background-color: #b9b9b9;
+    background-color: #f1f5f2;
+}
+
+.data-table tbody tr:hover {
+    background-color: #e1eae2;
+    transition: background-color 0.2s;
 }
 
 .contact-form {
-    background: #ffffff;
+    background-color: #f8faf8;
     padding: 1.5rem;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .form-group {
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
 }
 
 .form-group label {
     display: block;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
     font-weight: bold;
+    color: #374151;
 }
 
-.form-group input {
+.form-group input,
+.form-group select,
+.form-group textarea {
     width: 100%;
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 0.7rem;
+    border: 1px solid #cbd5ce;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: white;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #143019;
+    box-shadow: 0 0 0 2px rgba(20, 48, 25, 0.15);
+}
+
+.form-group textarea {
+    resize: vertical;
 }
 
 .btn {
@@ -126,13 +180,16 @@ nav {
     width: 100%;
     background-color: #143019;
     color: white;
-    padding: 0.75rem;
+    padding: 0.8rem;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     font-size: 1rem;
+    font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 .btn:hover {
     background-color: #08130a;
+    transform: translateY(-1px);
 }
