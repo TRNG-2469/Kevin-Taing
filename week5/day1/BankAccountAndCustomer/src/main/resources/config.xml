@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="customerConstructor" class="Customer" scope="singleton">
+        <constructor-arg value="1"/>
+        <constructor-arg value="Kevin"/>
+        <constructor-arg value="email@gmail.com"/>
+    </bean>
+
+    <bean id="customerSetter" class="Customer" scope="singleton">
+        <property name="customerId" value="2"/>
+        <property name="name" value="John"/>
+        <property name="email" value="another@gmail.com"/>
+    </bean>
+
+    <bean id="bankAccountConstructor" class="BankAccount" scope="singleton">
+        <constructor-arg value="1"/>
+        <constructor-arg value="400"/>
+        <constructor-arg ref="customerConstructor"/>
+    </bean>
+
+    <bean id="bankAccountSetter" class="BankAccount" scope="singleton">
+        <property name="accountNumber" value="2"/>
+        <property name="balance" value="450"/>
+        <property name="customer" ref="customerSetter"/>
+    </bean>
+</beans>
