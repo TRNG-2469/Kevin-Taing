@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="ems" class="EmailMessageService" scope="singleton"/>
+    <bean id="sms" class="SMSMessageService" scope="singleton"/>
+
+    <bean id="nsems" class="NotificationService" scope="singleton">
+        <constructor-arg ref="ems"/>
+    </bean>
+    <bean id="nssms" class="NotificationService" scope="singleton">
+        <constructor-arg ref="sms"/>
+    </bean>
+</beans>
