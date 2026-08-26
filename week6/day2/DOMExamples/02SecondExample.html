@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>By TagName and ClassName</title>
+</head>
+<body>
+    <p class = "c1">This is Para1</p>
+    <p class = "c2">This is Para2</p>
+    <p class = "c2">This is Para3</p>
+    <p class = "c1">This is Para4</p>
+    <script>
+        // const paraElements = document.getElementsByTagName("p");
+        // for(let i = 0; i < paraElements.length; i++) {
+        //     if(i % 2 == 0) {
+        //         paraElements[i].style.color = "blue";
+        //     } else {
+        //         paraElements[i].style.color = "red";
+        //     }
+        // }
+
+        // const classOne = document.getElementsByClassName("c1");
+        // const classTwo = document.getElementsByClassName("c2");
+        // for(let i = 0; i < classOne.length; i++) {
+        //     classOne[i].innerHTML = "<strong>" + classOne[i].innerHTML + "  from Class C1"
+        // }
+        // for(let i = 0; i < classTwo.length; i++) {
+        //     classTwo[i].innerHTML = "<strong>" + classTwo[i].innerHTML + "  from Class C2"
+        // }
+
+        var paragraphs = document.getElementById("p");
+        paragraphs[0].style.color = "red";
+        var p1 = document.querySelector("p");
+        var allParas = document.querySelectorAll("p");
+        
+    </script>
+</body>
+</html>

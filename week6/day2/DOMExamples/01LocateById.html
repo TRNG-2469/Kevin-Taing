@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <META name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>Locate By ID</title>
+    </head>
+<body>
+    <h1 id = "title"> Hello To DOM</h1>
+    <script>
+        const titleElement = document.getElementById("title");
+        console.log(titleElement.innerHTML);
+        console.log(titleElement.textContent);
+        titleElement.innerHTML = "Hello To DOM Manipulation";
+        titleElement.style.color = "red";
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Demo</title>
+</head>
+<body>
+    <p id = "p1">This is a paragraph.</p>
+    <hr/>
+    <button id = "myButton">Click Me!</button>
+    <script>
+        function showAlert() {
+            window.alert("Button was clicked");
+        }
+
+        function makeParaBold() {
+            const myP1 = document.getElementById("p1");
+            myP1.style.fontWeight = "bold";
+        }
+
+        function changeParaColor() {
+            const myP1 = document.getElementById("p1");
+            myP1.style.color = "red";
+        }
+
+        const myP1 = document.getElementById("p1");
+        myP1.addEventListener("click", makeParaBold);
+        myP1.addEventListener("mouseenter", changeParaColor);
+
+        const button = document.getElementById("myButton");
+        button.addEventListener("click", showAlert);
+
+        myP1.addEventListener("dblclick", function(event) {
+            console.log(event);
+        })
+    </script>
+</body>
+</html>

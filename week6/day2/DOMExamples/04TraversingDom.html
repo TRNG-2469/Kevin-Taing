@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traversing DOM</title>
+</head>
+<body>
+    <div id = "container">
+        <h1>Title</h1>
+        <p>First Paragraph</p>
+        <p>Second Paragraph</p>
+    </div>
+    <script>
+        // const heading = document.querySelector("h1");
+        // console.log(heading.parentElement);
+
+        // const container = document.getElementById("container");
+        // console.log(container.children);
+        // console.log(container.children[0]);
+        // console.log(container.children[1]);
+        // console.log(container.firstElementChild);
+        // console.log(container.lastElementChild);
+
+        const firstPara = document.querySelector("p");
+        const parentElement = firstPara.parentElement;
+        const children = parentElement.children;
+        for(let i = 0; i < children.length; i++) {
+            if(children[i] == firstPara) {
+                if(i > 0) {
+                    console.log(children[i - 1]);
+                }
+                if(i < children.length - 1) {
+                    console.log(children[i + 1])
+                }
+            }
+        }
+    </script>
+</body>
+</html>

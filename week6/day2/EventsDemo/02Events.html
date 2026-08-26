@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Events Demo 2</title>
+    </head>
+    <body>
+        <div id="parent" style="width: 200px; height: 100px; background-color: lightblue; display: flex; align-items: center; justify-content: center;">
+            <button id="child">Click Me</button>
+        </div>
+
+        <script>
+            const parent = document.getElementById("parent");
+            const child = document.getElementById("child");
+
+            parent.addEventListener("click", function() {
+                alert("Parent Clicked");
+            });
+
+            child.addEventListener("click", function() {
+                alert("Child clicked");
+            });
+        </script>
+    </body>
+</html>
