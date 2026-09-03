@@ -1,0 +1,10 @@
+<h1>User Details</h1>
+
+{{users.length}}
+{{users[0].name}}
+
+<ul>
+    @for(user of users; track user) {
+        <li>{{user.name}}</li>
+    }
+</ul>

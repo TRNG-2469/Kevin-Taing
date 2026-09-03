@@ -1,0 +1,15 @@
+@if(isLoggedIn) {
+    <h1 class = "success">Welcome User!</h1>
+} @else {
+    <h2 class = "fail">Please Login</h2>
+}
+
+<ul>
+    @for(student of students; track student) {
+        <li>{{student.name}} - {{student.age}}</li>
+    }
+</ul>
+
+<hr/>
+
+<p [ngClass] = "{'active': isActive}">Angular Attribute Directive</p>
