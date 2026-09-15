@@ -1,0 +1,19 @@
+image: maven:3.9-eclipse-temurin-21
+stages:
+  - build
+  - test
+cache:
+  paths:
+    - .m2/repository
+build:
+  stage: build
+  script:
+    - mvn clean package -DskipTests
+  artifacts:
+    paths:
+      - target/*.jar
+    expire_in: 1 week
+test:
+  stage: test
+  script:
+    - mvn test

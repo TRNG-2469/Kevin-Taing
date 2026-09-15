@@ -1,0 +1,505 @@
+2026-09-11 10:02:32 [main] INFO  w.d.splunklog.SplunklogApplication - Starting SplunklogApplication using Java 26.0.1 with PID 24988 (C:\Users\Kevin\Desktop\job\revature\project3_team1\Spring_Backend\Project_3_team_1-main\splunklog\target\classes started by Kevin in C:\Users\Kevin\Desktop\job\revature\project3_team1\Spring_Backend\Project_3_team_1-main\splunklog)
+2026-09-11 10:02:32 [main] INFO  w.d.splunklog.SplunklogApplication - No active profile set, falling back to 1 default profile: "default"
+2026-09-11 10:02:32 [main] INFO  w.d.splunklog.SplunklogApplication - Started SplunklogApplication in 0.569 seconds (process running for 0.786)
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Starting log simulation - 500 iterations
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 1: Transaction processed successfully. Amount: $2812
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 2: Transaction processed successfully. Amount: $9552
+2026-09-11 10:02:32 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 3: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 4: Transaction processed successfully. Amount: $9869
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 5: Transaction processed successfully. Amount: $2331
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 6: Transaction processed successfully. Amount: $1104
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 7: Transaction processed successfully. Amount: $9840
+2026-09-11 10:02:32 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 8: Transaction failed. Reason: Insufficient funds
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 9: Transaction processed successfully. Amount: $3341
+2026-09-11 10:02:32 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 10: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:32 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 11: Transaction flagged for review. Amount exceeded threshold: $11483
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 12: Transaction processed successfully. Amount: $7732
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 13: Transaction processed successfully. Amount: $8828
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 14: Transaction processed successfully. Amount: $5503
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 15: Transaction processed successfully. Amount: $8491
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 16: Transaction processed successfully. Amount: $4216
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 17: Transaction processed successfully. Amount: $3185
+2026-09-11 10:02:32 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 18: Transaction flagged for review. Amount exceeded threshold: $10521
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 19: Transaction processed successfully. Amount: $6489
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 20: Transaction processed successfully. Amount: $9435
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 21: Transaction processed successfully. Amount: $4649
+2026-09-11 10:02:32 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 22: Transaction flagged for review. Amount exceeded threshold: $9250
+2026-09-11 10:02:32 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 23: Transaction flagged for review. Amount exceeded threshold: $10613
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 24: Transaction processed successfully. Amount: $2336
+2026-09-11 10:02:32 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 25: Transaction flagged for review. Amount exceeded threshold: $10922
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 26: Transaction processed successfully. Amount: $8433
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 27: Transaction processed successfully. Amount: $8555
+2026-09-11 10:02:32 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 28: Transaction flagged for review. Amount exceeded threshold: $12259
+2026-09-11 10:02:32 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 29: Transaction flagged for review. Amount exceeded threshold: $12627
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 30: Transaction processed successfully. Amount: $4631
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 31: Transaction processed successfully. Amount: $1305
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 32: Transaction processed successfully. Amount: $6912
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 33: Transaction processed successfully. Amount: $8265
+2026-09-11 10:02:32 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 34: Transaction failed. Reason: Invalid account number
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 35: Transaction processed successfully. Amount: $4364
+2026-09-11 10:02:32 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 36: Transaction flagged for review. Amount exceeded threshold: $11897
+2026-09-11 10:02:32 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 37: Transaction flagged for review. Amount exceeded threshold: $11126
+2026-09-11 10:02:32 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 38: Transaction flagged for review. Amount exceeded threshold: $13278
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 39: Transaction processed successfully. Amount: $7320
+2026-09-11 10:02:32 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 40: Transaction failed. Reason: Invalid account number
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 41: Transaction processed successfully. Amount: $1434
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 42: Transaction processed successfully. Amount: $5721
+2026-09-11 10:02:32 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 43: Transaction flagged for review. Amount exceeded threshold: $10071
+2026-09-11 10:02:32 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 44: Transaction flagged for review. Amount exceeded threshold: $13659
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 45: Transaction processed successfully. Amount: $1164
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 46: Transaction processed successfully. Amount: $6131
+2026-09-11 10:02:32 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 47: Transaction flagged for review. Amount exceeded threshold: $9422
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 48: Transaction processed successfully. Amount: $2087
+2026-09-11 10:02:32 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 49: Transaction flagged for review. Amount exceeded threshold: $9095
+2026-09-11 10:02:32 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 50: Transaction flagged for review. Amount exceeded threshold: $11902
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 51: Transaction processed successfully. Amount: $9901
+2026-09-11 10:02:32 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 52: Transaction failed. Reason: Duplicate transaction detected
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 53: Transaction processed successfully. Amount: $6647
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 54: Transaction processed successfully. Amount: $4575
+2026-09-11 10:02:32 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 55: Transaction flagged for review. Amount exceeded threshold: $11269
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 56: Transaction processed successfully. Amount: $4427
+2026-09-11 10:02:32 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 57: Transaction failed. Reason: Duplicate transaction detected
+2026-09-11 10:02:32 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 58: Transaction flagged for review. Amount exceeded threshold: $12180
+2026-09-11 10:02:32 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 59: Transaction failed. Reason: Insufficient funds
+2026-09-11 10:02:32 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 60: Transaction flagged for review. Amount exceeded threshold: $10193
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 61: Transaction processed successfully. Amount: $4002
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 62: Transaction processed successfully. Amount: $1855
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 63: Transaction processed successfully. Amount: $3999
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 64: Transaction processed successfully. Amount: $2600
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 65: Transaction processed successfully. Amount: $6808
+2026-09-11 10:02:32 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 66: Transaction flagged for review. Amount exceeded threshold: $9457
+2026-09-11 10:02:32 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 67: Transaction processed successfully. Amount: $7238
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 68: Transaction processed successfully. Amount: $9169
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 69: Transaction processed successfully. Amount: $1272
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 70: Transaction processed successfully. Amount: $5825
+2026-09-11 10:02:33 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 71: Transaction flagged for review. Amount exceeded threshold: $9752
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 72: Transaction processed successfully. Amount: $8877
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 73: Transaction processed successfully. Amount: $2272
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 74: Transaction processed successfully. Amount: $2045
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 75: Transaction processed successfully. Amount: $2655
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 76: Transaction processed successfully. Amount: $9056
+2026-09-11 10:02:33 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 77: Transaction failed. Reason: Insufficient funds
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 78: Transaction processed successfully. Amount: $9606
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 79: Transaction processed successfully. Amount: $9105
+2026-09-11 10:02:33 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 80: Transaction flagged for review. Amount exceeded threshold: $13895
+2026-09-11 10:02:33 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 81: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 82: Transaction processed successfully. Amount: $7934
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 83: Transaction processed successfully. Amount: $7029
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 84: Transaction processed successfully. Amount: $8388
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 85: Transaction processed successfully. Amount: $1476
+2026-09-11 10:02:33 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 86: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 87: Transaction processed successfully. Amount: $5036
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 88: Transaction processed successfully. Amount: $7558
+2026-09-11 10:02:33 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 89: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 90: Transaction processed successfully. Amount: $7233
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 91: Transaction processed successfully. Amount: $9235
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 92: Transaction processed successfully. Amount: $1676
+2026-09-11 10:02:33 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 93: Transaction failed. Reason: Invalid account number
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 94: Transaction processed successfully. Amount: $9292
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 95: Transaction processed successfully. Amount: $1214
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 96: Transaction processed successfully. Amount: $9313
+2026-09-11 10:02:33 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 97: Transaction flagged for review. Amount exceeded threshold: $9609
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 98: Transaction processed successfully. Amount: $3750
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 99: Transaction processed successfully. Amount: $8532
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 100: Transaction processed successfully. Amount: $2078
+2026-09-11 10:02:33 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 101: Transaction flagged for review. Amount exceeded threshold: $9511
+2026-09-11 10:02:33 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 102: Transaction flagged for review. Amount exceeded threshold: $12972
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 103: Transaction processed successfully. Amount: $8311
+2026-09-11 10:02:33 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 104: Transaction flagged for review. Amount exceeded threshold: $9340
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 105: Transaction processed successfully. Amount: $3144
+2026-09-11 10:02:33 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 106: Transaction flagged for review. Amount exceeded threshold: $10212
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 107: Transaction processed successfully. Amount: $5106
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 108: Transaction processed successfully. Amount: $1969
+2026-09-11 10:02:33 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 109: Transaction flagged for review. Amount exceeded threshold: $9486
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 110: Transaction processed successfully. Amount: $5127
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 111: Transaction processed successfully. Amount: $2827
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 112: Transaction processed successfully. Amount: $8272
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 113: Transaction processed successfully. Amount: $5656
+2026-09-11 10:02:33 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 114: Transaction failed. Reason: Authorization failed
+2026-09-11 10:02:33 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 115: Transaction failed. Reason: Invalid account number
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 116: Transaction processed successfully. Amount: $7643
+2026-09-11 10:02:33 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 117: Transaction flagged for review. Amount exceeded threshold: $13982
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 118: Transaction processed successfully. Amount: $9860
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 119: Transaction processed successfully. Amount: $6347
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 120: Transaction processed successfully. Amount: $3346
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 121: Transaction processed successfully. Amount: $6579
+2026-09-11 10:02:33 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 122: Transaction failed. Reason: Invalid account number
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 123: Transaction processed successfully. Amount: $6040
+2026-09-11 10:02:33 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 124: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 125: Transaction processed successfully. Amount: $8001
+2026-09-11 10:02:33 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 126: Transaction flagged for review. Amount exceeded threshold: $11601
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 127: Transaction processed successfully. Amount: $7700
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 128: Transaction processed successfully. Amount: $1930
+2026-09-11 10:02:33 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 129: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 130: Transaction processed successfully. Amount: $2358
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 131: Transaction processed successfully. Amount: $6925
+2026-09-11 10:02:33 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 132: Transaction flagged for review. Amount exceeded threshold: $13199
+2026-09-11 10:02:33 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 133: Transaction failed. Reason: Duplicate transaction detected
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 134: Transaction processed successfully. Amount: $1973
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 135: Transaction processed successfully. Amount: $2894
+2026-09-11 10:02:33 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 136: Transaction flagged for review. Amount exceeded threshold: $11501
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 137: Transaction processed successfully. Amount: $1690
+2026-09-11 10:02:33 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 138: Transaction flagged for review. Amount exceeded threshold: $12429
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 139: Transaction processed successfully. Amount: $3873
+2026-09-11 10:02:33 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 140: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:33 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 141: Transaction flagged for review. Amount exceeded threshold: $9583
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 142: Transaction processed successfully. Amount: $2286
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 143: Transaction processed successfully. Amount: $1308
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 144: Transaction processed successfully. Amount: $7650
+2026-09-11 10:02:33 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 145: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 146: Transaction processed successfully. Amount: $3821
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 147: Transaction processed successfully. Amount: $2215
+2026-09-11 10:02:33 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 148: Transaction failed. Reason: Invalid account number
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 149: Transaction processed successfully. Amount: $8941
+2026-09-11 10:02:33 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 150: Transaction flagged for review. Amount exceeded threshold: $13300
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 151: Transaction processed successfully. Amount: $9362
+2026-09-11 10:02:33 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 152: Transaction flagged for review. Amount exceeded threshold: $10503
+2026-09-11 10:02:33 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 153: Transaction flagged for review. Amount exceeded threshold: $11586
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 154: Transaction processed successfully. Amount: $4355
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 155: Transaction processed successfully. Amount: $8441
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 156: Transaction processed successfully. Amount: $6951
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 157: Transaction processed successfully. Amount: $6737
+2026-09-11 10:02:33 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 158: Transaction processed successfully. Amount: $6580
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 159: Transaction flagged for review. Amount exceeded threshold: $11057
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 160: Transaction processed successfully. Amount: $8412
+2026-09-11 10:02:34 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 161: Transaction failed. Reason: Authorization failed
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 162: Transaction processed successfully. Amount: $5512
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 163: Transaction flagged for review. Amount exceeded threshold: $11522
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 164: Transaction flagged for review. Amount exceeded threshold: $10653
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 165: Transaction processed successfully. Amount: $4382
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 166: Transaction processed successfully. Amount: $4157
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 167: Transaction processed successfully. Amount: $1540
+2026-09-11 10:02:34 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 168: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 169: Transaction processed successfully. Amount: $4301
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 170: Transaction processed successfully. Amount: $4201
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 171: Transaction processed successfully. Amount: $8284
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 172: Transaction processed successfully. Amount: $6616
+2026-09-11 10:02:34 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 173: Transaction failed. Reason: Duplicate transaction detected
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 174: Transaction processed successfully. Amount: $6509
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 175: Transaction flagged for review. Amount exceeded threshold: $9998
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 176: Transaction flagged for review. Amount exceeded threshold: $13812
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 177: Transaction processed successfully. Amount: $2760
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 178: Transaction processed successfully. Amount: $8372
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 179: Transaction flagged for review. Amount exceeded threshold: $13105
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 180: Transaction processed successfully. Amount: $6799
+2026-09-11 10:02:34 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 181: Transaction failed. Reason: Authorization failed
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 182: Transaction processed successfully. Amount: $7763
+2026-09-11 10:02:34 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 183: Transaction failed. Reason: Duplicate transaction detected
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 184: Transaction processed successfully. Amount: $9324
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 185: Transaction flagged for review. Amount exceeded threshold: $12466
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 186: Transaction processed successfully. Amount: $8792
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 187: Transaction processed successfully. Amount: $4701
+2026-09-11 10:02:34 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 188: Transaction failed. Reason: Insufficient funds
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 189: Transaction processed successfully. Amount: $9703
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 190: Transaction processed successfully. Amount: $4245
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 191: Transaction processed successfully. Amount: $5662
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 192: Transaction processed successfully. Amount: $4222
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 193: Transaction flagged for review. Amount exceeded threshold: $13004
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 194: Transaction processed successfully. Amount: $2421
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 195: Transaction processed successfully. Amount: $9770
+2026-09-11 10:02:34 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 196: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 197: Transaction flagged for review. Amount exceeded threshold: $12358
+2026-09-11 10:02:34 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 198: Transaction failed. Reason: Insufficient funds
+2026-09-11 10:02:34 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 199: Transaction failed. Reason: Invalid account number
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 200: Transaction processed successfully. Amount: $8591
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 201: Transaction processed successfully. Amount: $7266
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 202: Transaction processed successfully. Amount: $2415
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 203: Transaction flagged for review. Amount exceeded threshold: $11338
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 204: Transaction processed successfully. Amount: $4255
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 205: Transaction processed successfully. Amount: $1650
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 206: Transaction processed successfully. Amount: $8514
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 207: Transaction processed successfully. Amount: $5279
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 208: Transaction processed successfully. Amount: $4486
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 209: Transaction flagged for review. Amount exceeded threshold: $12854
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 210: Transaction flagged for review. Amount exceeded threshold: $11454
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 211: Transaction flagged for review. Amount exceeded threshold: $10992
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 212: Transaction flagged for review. Amount exceeded threshold: $12548
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 213: Transaction flagged for review. Amount exceeded threshold: $12821
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 214: Transaction flagged for review. Amount exceeded threshold: $11832
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 215: Transaction flagged for review. Amount exceeded threshold: $10254
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 216: Transaction processed successfully. Amount: $4738
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 217: Transaction processed successfully. Amount: $8011
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 218: Transaction processed successfully. Amount: $8392
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 219: Transaction processed successfully. Amount: $6414
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 220: Transaction flagged for review. Amount exceeded threshold: $9300
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 221: Transaction processed successfully. Amount: $7058
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 222: Transaction processed successfully. Amount: $9870
+2026-09-11 10:02:34 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 223: Transaction failed. Reason: Duplicate transaction detected
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 224: Transaction processed successfully. Amount: $2369
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 225: Transaction processed successfully. Amount: $9403
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 226: Transaction flagged for review. Amount exceeded threshold: $10332
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 227: Transaction processed successfully. Amount: $8534
+2026-09-11 10:02:34 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 228: Transaction failed. Reason: Invalid account number
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 229: Transaction processed successfully. Amount: $4075
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 230: Transaction processed successfully. Amount: $8896
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 231: Transaction processed successfully. Amount: $5504
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 232: Transaction processed successfully. Amount: $5089
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 233: Transaction flagged for review. Amount exceeded threshold: $13345
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 234: Transaction processed successfully. Amount: $7696
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 235: Transaction processed successfully. Amount: $1188
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 236: Transaction processed successfully. Amount: $6899
+2026-09-11 10:02:34 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 237: Transaction failed. Reason: Insufficient funds
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 238: Transaction processed successfully. Amount: $3173
+2026-09-11 10:02:34 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 239: Transaction failed. Reason: Duplicate transaction detected
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 240: Transaction processed successfully. Amount: $5538
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 241: Transaction processed successfully. Amount: $5382
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 242: Transaction processed successfully. Amount: $4707
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 243: Transaction processed successfully. Amount: $9634
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 244: Transaction flagged for review. Amount exceeded threshold: $10158
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 245: Transaction processed successfully. Amount: $5381
+2026-09-11 10:02:34 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 246: Transaction processed successfully. Amount: $9357
+2026-09-11 10:02:34 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 247: Transaction flagged for review. Amount exceeded threshold: $9604
+2026-09-11 10:02:34 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 248: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:34 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 249: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 250: Transaction flagged for review. Amount exceeded threshold: $9330
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 251: Transaction processed successfully. Amount: $3017
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 252: Transaction processed successfully. Amount: $8158
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 253: Transaction flagged for review. Amount exceeded threshold: $12163
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 254: Transaction processed successfully. Amount: $4821
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 255: Transaction flagged for review. Amount exceeded threshold: $12896
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 256: Transaction processed successfully. Amount: $6061
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 257: Transaction processed successfully. Amount: $2548
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 258: Transaction flagged for review. Amount exceeded threshold: $13342
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 259: Transaction processed successfully. Amount: $4374
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 260: Transaction flagged for review. Amount exceeded threshold: $11203
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 261: Transaction flagged for review. Amount exceeded threshold: $10607
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 262: Transaction processed successfully. Amount: $7939
+2026-09-11 10:02:35 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 263: Transaction failed. Reason: Authorization failed
+2026-09-11 10:02:35 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 264: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 265: Transaction processed successfully. Amount: $3793
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 266: Transaction processed successfully. Amount: $2852
+2026-09-11 10:02:35 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 267: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 268: Transaction processed successfully. Amount: $1667
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 269: Transaction flagged for review. Amount exceeded threshold: $13419
+2026-09-11 10:02:35 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 270: Transaction failed. Reason: Invalid account number
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 271: Transaction processed successfully. Amount: $1968
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 272: Transaction flagged for review. Amount exceeded threshold: $11382
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 273: Transaction processed successfully. Amount: $9208
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 274: Transaction processed successfully. Amount: $2946
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 275: Transaction flagged for review. Amount exceeded threshold: $9463
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 276: Transaction processed successfully. Amount: $7340
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 277: Transaction processed successfully. Amount: $2075
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 278: Transaction processed successfully. Amount: $8320
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 279: Transaction processed successfully. Amount: $7793
+2026-09-11 10:02:35 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 280: Transaction failed. Reason: Invalid account number
+2026-09-11 10:02:35 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 281: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 282: Transaction processed successfully. Amount: $1087
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 283: Transaction processed successfully. Amount: $1289
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 284: Transaction flagged for review. Amount exceeded threshold: $11325
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 285: Transaction flagged for review. Amount exceeded threshold: $9049
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 286: Transaction processed successfully. Amount: $2130
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 287: Transaction processed successfully. Amount: $3796
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 288: Transaction processed successfully. Amount: $9809
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 289: Transaction processed successfully. Amount: $7270
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 290: Transaction processed successfully. Amount: $6635
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 291: Transaction processed successfully. Amount: $5257
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 292: Transaction processed successfully. Amount: $3476
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 293: Transaction flagged for review. Amount exceeded threshold: $12367
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 294: Transaction processed successfully. Amount: $7238
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 295: Transaction processed successfully. Amount: $6410
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 296: Transaction processed successfully. Amount: $4927
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 297: Transaction processed successfully. Amount: $5763
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 298: Transaction processed successfully. Amount: $9106
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 299: Transaction processed successfully. Amount: $5099
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 300: Transaction flagged for review. Amount exceeded threshold: $11024
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 301: Transaction processed successfully. Amount: $8008
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 302: Transaction processed successfully. Amount: $4656
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 303: Transaction flagged for review. Amount exceeded threshold: $13615
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 304: Transaction processed successfully. Amount: $2538
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 305: Transaction flagged for review. Amount exceeded threshold: $13435
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 306: Transaction processed successfully. Amount: $2572
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 307: Transaction flagged for review. Amount exceeded threshold: $10408
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 308: Transaction processed successfully. Amount: $1847
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 309: Transaction processed successfully. Amount: $5151
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 310: Transaction processed successfully. Amount: $6977
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 311: Transaction processed successfully. Amount: $3006
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 312: Transaction processed successfully. Amount: $4007
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 313: Transaction flagged for review. Amount exceeded threshold: $13610
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 314: Transaction flagged for review. Amount exceeded threshold: $9495
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 315: Transaction processed successfully. Amount: $8980
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 316: Transaction processed successfully. Amount: $4560
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 317: Transaction processed successfully. Amount: $7101
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 318: Transaction processed successfully. Amount: $4862
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 319: Transaction processed successfully. Amount: $7375
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 320: Transaction flagged for review. Amount exceeded threshold: $10670
+2026-09-11 10:02:35 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 321: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 322: Transaction processed successfully. Amount: $1170
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 323: Transaction processed successfully. Amount: $4016
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 324: Transaction processed successfully. Amount: $5649
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 325: Transaction processed successfully. Amount: $1262
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 326: Transaction processed successfully. Amount: $4366
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 327: Transaction processed successfully. Amount: $1759
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 328: Transaction processed successfully. Amount: $8883
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 329: Transaction flagged for review. Amount exceeded threshold: $10854
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 330: Transaction processed successfully. Amount: $5723
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 331: Transaction processed successfully. Amount: $4783
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 332: Transaction flagged for review. Amount exceeded threshold: $9041
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 333: Transaction flagged for review. Amount exceeded threshold: $12483
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 334: Transaction processed successfully. Amount: $2632
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 335: Transaction processed successfully. Amount: $1895
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 336: Transaction processed successfully. Amount: $1039
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 337: Transaction processed successfully. Amount: $7664
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 338: Transaction processed successfully. Amount: $9944
+2026-09-11 10:02:35 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 339: Transaction failed. Reason: Duplicate transaction detected
+2026-09-11 10:02:35 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 340: Transaction flagged for review. Amount exceeded threshold: $9486
+2026-09-11 10:02:35 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 341: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:35 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 342: Transaction processed successfully. Amount: $8145
+2026-09-11 10:02:36 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 343: Transaction failed. Reason: Insufficient funds
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 344: Transaction processed successfully. Amount: $9504
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 345: Transaction processed successfully. Amount: $2930
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 346: Transaction processed successfully. Amount: $8513
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 347: Transaction processed successfully. Amount: $6538
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 348: Transaction processed successfully. Amount: $7175
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 349: Transaction processed successfully. Amount: $7647
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 350: Transaction processed successfully. Amount: $4449
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 351: Transaction processed successfully. Amount: $3715
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 352: Transaction processed successfully. Amount: $9171
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 353: Transaction processed successfully. Amount: $9880
+2026-09-11 10:02:36 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 354: Transaction flagged for review. Amount exceeded threshold: $9692
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 355: Transaction processed successfully. Amount: $2418
+2026-09-11 10:02:36 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 356: Transaction flagged for review. Amount exceeded threshold: $11147
+2026-09-11 10:02:36 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 357: Transaction flagged for review. Amount exceeded threshold: $11442
+2026-09-11 10:02:36 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 358: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 359: Transaction processed successfully. Amount: $2619
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 360: Transaction processed successfully. Amount: $6968
+2026-09-11 10:02:36 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 361: Transaction failed. Reason: Invalid account number
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 362: Transaction processed successfully. Amount: $8710
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 363: Transaction processed successfully. Amount: $1432
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 364: Transaction processed successfully. Amount: $2223
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 365: Transaction processed successfully. Amount: $2972
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 366: Transaction processed successfully. Amount: $9830
+2026-09-11 10:02:36 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 367: Transaction flagged for review. Amount exceeded threshold: $11638
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 368: Transaction processed successfully. Amount: $9749
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 369: Transaction processed successfully. Amount: $5382
+2026-09-11 10:02:36 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 370: Transaction flagged for review. Amount exceeded threshold: $12320
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 371: Transaction processed successfully. Amount: $5245
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 372: Transaction processed successfully. Amount: $9474
+2026-09-11 10:02:36 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 373: Transaction flagged for review. Amount exceeded threshold: $9447
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 374: Transaction processed successfully. Amount: $8864
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 375: Transaction processed successfully. Amount: $1414
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 376: Transaction processed successfully. Amount: $5385
+2026-09-11 10:02:36 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 377: Transaction flagged for review. Amount exceeded threshold: $9900
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 378: Transaction processed successfully. Amount: $9454
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 379: Transaction processed successfully. Amount: $2220
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 380: Transaction processed successfully. Amount: $4844
+2026-09-11 10:02:36 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 381: Transaction failed. Reason: Invalid account number
+2026-09-11 10:02:36 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 382: Transaction flagged for review. Amount exceeded threshold: $9642
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 383: Transaction processed successfully. Amount: $8318
+2026-09-11 10:02:36 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 384: Transaction failed. Reason: Insufficient funds
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 385: Transaction processed successfully. Amount: $9319
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 386: Transaction processed successfully. Amount: $4944
+2026-09-11 10:02:36 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 387: Transaction failed. Reason: Duplicate transaction detected
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 388: Transaction processed successfully. Amount: $7993
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 389: Transaction processed successfully. Amount: $1035
+2026-09-11 10:02:36 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 390: Transaction failed. Reason: Insufficient funds
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 391: Transaction processed successfully. Amount: $6431
+2026-09-11 10:02:36 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 392: Transaction flagged for review. Amount exceeded threshold: $9757
+2026-09-11 10:02:36 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 393: Transaction failed. Reason: Invalid account number
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 394: Transaction processed successfully. Amount: $7380
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 395: Transaction processed successfully. Amount: $9924
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 396: Transaction processed successfully. Amount: $5946
+2026-09-11 10:02:36 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 397: Transaction flagged for review. Amount exceeded threshold: $9258
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 398: Transaction processed successfully. Amount: $8843
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 399: Transaction processed successfully. Amount: $3293
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 400: Transaction processed successfully. Amount: $6300
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 401: Transaction processed successfully. Amount: $6214
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 402: Transaction processed successfully. Amount: $5753
+2026-09-11 10:02:36 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 403: Transaction flagged for review. Amount exceeded threshold: $12905
+2026-09-11 10:02:36 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 404: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:36 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 405: Transaction flagged for review. Amount exceeded threshold: $9499
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 406: Transaction processed successfully. Amount: $8861
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 407: Transaction processed successfully. Amount: $7818
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 408: Transaction processed successfully. Amount: $3842
+2026-09-11 10:02:36 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 409: Transaction flagged for review. Amount exceeded threshold: $10744
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 410: Transaction processed successfully. Amount: $4413
+2026-09-11 10:02:36 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 411: Transaction failed. Reason: Insufficient funds
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 412: Transaction processed successfully. Amount: $4909
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 413: Transaction processed successfully. Amount: $1635
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 414: Transaction processed successfully. Amount: $4266
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 415: Transaction processed successfully. Amount: $2312
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 416: Transaction processed successfully. Amount: $5120
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 417: Transaction processed successfully. Amount: $2528
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 418: Transaction processed successfully. Amount: $7559
+2026-09-11 10:02:36 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 419: Transaction flagged for review. Amount exceeded threshold: $9170
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 420: Transaction processed successfully. Amount: $4932
+2026-09-11 10:02:36 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 421: Transaction flagged for review. Amount exceeded threshold: $12971
+2026-09-11 10:02:36 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 422: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 423: Transaction processed successfully. Amount: $8842
+2026-09-11 10:02:36 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 424: Transaction failed. Reason: Duplicate transaction detected
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 425: Transaction processed successfully. Amount: $2098
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 426: Transaction processed successfully. Amount: $9709
+2026-09-11 10:02:36 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 427: Transaction flagged for review. Amount exceeded threshold: $10996
+2026-09-11 10:02:36 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 428: Transaction failed. Reason: Invalid account number
+2026-09-11 10:02:36 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 429: Transaction flagged for review. Amount exceeded threshold: $11477
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 430: Transaction processed successfully. Amount: $8726
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 431: Transaction processed successfully. Amount: $7867
+2026-09-11 10:02:36 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 432: Transaction processed successfully. Amount: $4179
+2026-09-11 10:02:36 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 433: Transaction flagged for review. Amount exceeded threshold: $12616
+2026-09-11 10:02:36 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 434: Transaction flagged for review. Amount exceeded threshold: $12454
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 435: Transaction processed successfully. Amount: $6769
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 436: Transaction processed successfully. Amount: $1537
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 437: Transaction processed successfully. Amount: $3118
+2026-09-11 10:02:37 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 438: Transaction failed. Reason: Authorization failed
+2026-09-11 10:02:37 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 439: Transaction flagged for review. Amount exceeded threshold: $13437
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 440: Transaction processed successfully. Amount: $2037
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 441: Transaction processed successfully. Amount: $3269
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 442: Transaction processed successfully. Amount: $9487
+2026-09-11 10:02:37 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 443: Transaction flagged for review. Amount exceeded threshold: $11804
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 444: Transaction processed successfully. Amount: $4074
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 445: Transaction processed successfully. Amount: $7293
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 446: Transaction processed successfully. Amount: $7401
+2026-09-11 10:02:37 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 447: Transaction failed. Reason: Authorization failed
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 448: Transaction processed successfully. Amount: $6335
+2026-09-11 10:02:37 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 449: Transaction flagged for review. Amount exceeded threshold: $13602
+2026-09-11 10:02:37 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 450: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:37 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 451: Transaction failed. Reason: Authorization failed
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 452: Transaction processed successfully. Amount: $6404
+2026-09-11 10:02:37 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 453: Transaction flagged for review. Amount exceeded threshold: $11584
+2026-09-11 10:02:37 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 454: Transaction failed. Reason: Duplicate transaction detected
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 455: Transaction processed successfully. Amount: $1805
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 456: Transaction processed successfully. Amount: $4850
+2026-09-11 10:02:37 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 457: Transaction failed. Reason: Insufficient funds
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 458: Transaction processed successfully. Amount: $2185
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 459: Transaction processed successfully. Amount: $7327
+2026-09-11 10:02:37 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 460: Transaction failed. Reason: Insufficient funds
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 461: Transaction processed successfully. Amount: $4191
+2026-09-11 10:02:37 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 462: Transaction flagged for review. Amount exceeded threshold: $12112
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 463: Transaction processed successfully. Amount: $1601
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 464: Transaction processed successfully. Amount: $1546
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 465: Transaction processed successfully. Amount: $6411
+2026-09-11 10:02:37 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 466: Transaction flagged for review. Amount exceeded threshold: $11621
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 467: Transaction processed successfully. Amount: $6220
+2026-09-11 10:02:37 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 468: Transaction flagged for review. Amount exceeded threshold: $12939
+2026-09-11 10:02:37 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 469: Transaction failed. Reason: Authorization failed
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 470: Transaction processed successfully. Amount: $1772
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 471: Transaction processed successfully. Amount: $5640
+2026-09-11 10:02:37 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 472: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 473: Transaction processed successfully. Amount: $2755
+2026-09-11 10:02:37 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 474: Transaction failed. Reason: Insufficient funds
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 475: Transaction processed successfully. Amount: $2745
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 476: Transaction processed successfully. Amount: $7540
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 477: Transaction processed successfully. Amount: $8910
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 478: Transaction processed successfully. Amount: $4310
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 479: Transaction processed successfully. Amount: $2612
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 480: Transaction processed successfully. Amount: $7599
+2026-09-11 10:02:37 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 481: Transaction failed. Reason: Connection timeout
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 482: Transaction processed successfully. Amount: $4957
+2026-09-11 10:02:37 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 483: Transaction failed. Reason: Invalid account number
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 484: Transaction processed successfully. Amount: $2968
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 485: Transaction processed successfully. Amount: $8322
+2026-09-11 10:02:37 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 486: Transaction failed. Reason: Invalid account number
+2026-09-11 10:02:37 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 487: Transaction flagged for review. Amount exceeded threshold: $10584
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 488: Transaction processed successfully. Amount: $7913
+2026-09-11 10:02:37 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 489: Transaction flagged for review. Amount exceeded threshold: $10207
+2026-09-11 10:02:37 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 490: Transaction flagged for review. Amount exceeded threshold: $12639
+2026-09-11 10:02:37 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 491: Transaction failed. Reason: Invalid account number
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 492: Transaction processed successfully. Amount: $3933
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 493: Transaction processed successfully. Amount: $1550
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 494: Transaction processed successfully. Amount: $9768
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 495: Transaction processed successfully. Amount: $2679
+2026-09-11 10:02:37 [main] ERROR week8.day5.splunklog.SplunkDemo - Iteration 496: Transaction failed. Reason: Duplicate transaction detected
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 497: Transaction processed successfully. Amount: $6368
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 498: Transaction processed successfully. Amount: $8566
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Iteration 499: Transaction processed successfully. Amount: $4499
+2026-09-11 10:02:37 [main] WARN  week8.day5.splunklog.SplunkDemo - Iteration 500: Transaction flagged for review. Amount exceeded threshold: $10825
+2026-09-11 10:02:37 [main] INFO  week8.day5.splunklog.SplunkDemo - Log simulation complete.
